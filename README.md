@@ -49,7 +49,7 @@ The goal of this project is to analyze factors affecting churn and build predict
    
     (a) Split dataset into training (80%) and testing (20%).
    
-    (b) Encoded `Churn` as binary (0 = No, 1 = Yes).
+    (b) Encoded Churn as binary (0 = No, 1 = Yes).
 
 7. **Model Training & Evaluation**
    
