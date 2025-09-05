@@ -27,7 +27,7 @@ The goal of this project is to analyze factors affecting churn and build predict
 **`Churn`** → Target variable (Yes = churn, No = stay)  
 
 
-## 🔎 Project Workflow: Telco Customer Churn Prediction
+## Project Workflow: Telco Customer Churn Prediction
 
 1. **Data Analysis**
    
