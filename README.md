@@ -27,39 +27,43 @@ The goal of this project is to analyze factors affecting churn and build predict
 **`Churn`** → Target variable (Yes = churn, No = stay)  
 
 
-Here’s a **shorter refined version** of your workflow that’s concise but still professional 👇
-
----
-
 ## 🔎 Project Workflow: Telco Customer Churn Prediction
 
 1. **Data Analysis**
    
    (a):- Explored the Telco Customer Churn dataset, reviewed customer demographics, service usage, billing info, and churn status.
+   
    (b):-Identified numeric vs categorical features, handled missing values, and converted `TotalCharges` to numeric.
 
 3. **Preprocessing Pipeline**
    
  Built a reusable pipeline:
  
-    (a) **Numeric features** → imputation (median) + scaling.
-    (b) **Categorical features** → imputation (most frequent) + one-hot encoding.
-    (c) Combined using `ColumnTransformer`.
+    (a) Numeric features → imputation (median) + scaling.
+    
+    (b) Categorical features → imputation (most frequent) + one-hot encoding.
+    
+    (c) Combined using ColumnTransformer.
 
 5. **Train-Test Split**
    
     (a) Split dataset into training (80%) and testing (20%).
+   
     (b) Encoded `Churn` as binary (0 = No, 1 = Yes).
 
-6. **Model Training & Evaluation**
+7. **Model Training & Evaluation**
    
     (a) Trained 4 models: **Logistic Regression, Random Forest, Gradient Boosting, XGBoost**.
+   
     (b) Evaluated with **classification report, confusion matrix, accuracy, cross-validation score**.
+   
     (c) **Logistic Regression** gave the best trade-off between accuracy and recall.
 
-7. **Final Prediction System**
+9. **Final Prediction System**
 
     (a) Combined preprocessing + best model into one pipeline.
+   
     (b) Built an interactive system where users enter customer details (e.g., gender, tenure, contract, charges).
+   
     (c) Model outputs **churn probability** and **final decision (Yes/No)**.
 
