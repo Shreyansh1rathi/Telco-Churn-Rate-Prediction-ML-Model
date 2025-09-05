@@ -6,23 +6,23 @@ The goal of this project is to analyze factors affecting churn and build predict
 
 **`customerID`** → Unique customer identifier  
 **`gender`** → Male / Female  
-**SeniorCitizen** → 0 (No) / 1 (Yes)  
-**Partner** → Whether customer has a partner (Yes/No)  
-**Dependents** → Whether customer has dependents (Yes/No)  
-**tenure** → Number of months the customer has stayed  
-**PhoneService** → Yes/No  
-**MultipleLines** → No phone service / No / Yes  
-**InternetService** → DSL / Fiber optic / No  
-**OnlineSecurity** → Yes / No / No internet service  
-**OnlineBackup** → Yes / No / No internet service  
-**DeviceProtection** → Yes / No / No internet service  
-**TechSupport** → Yes / No / No internet service  
-**StreamingTV** → Yes / No / No internet service  
-**StreamingMovies** → Yes / No / No internet service  
-**Contract** → Month-to-month / One year / Two year  
-**PaperlessBilling** → Yes / No  
-**PaymentMethod** → Electronic check / Mailed check / Bank transfer / Credit card  
-**MonthlyCharges** → The amount charged monthly  
-**TotalCharges** → The total amount charged  
-**Churn** → Target variable (Yes = churn, No = stay)  
+**`SeniorCitizen`** → 0 (No) / 1 (Yes)  
+**`Partner`** → Whether customer has a partner (Yes/No)  
+**`Dependents`** → Whether customer has dependents (Yes/No)  
+**`tenure`** → Number of months the customer has stayed  
+**`PhoneService`** → Yes/No  
+**`MultipleLines`** → No phone service / No / Yes  
+**`InternetService`** → DSL / Fiber optic / No  
+**`OnlineSecurity`** → Yes / No / No internet service  
+**`OnlineBackup`** → Yes / No / No internet service  
+**`DeviceProtection`** → Yes / No / No internet service  
+**`TechSupport`** → Yes / No / No internet service  
+**`StreamingTV`** → Yes / No / No internet service  
+**`StreamingMovies`** → Yes / No / No internet service  
+**`Contract`** → Month-to-month / One year / Two year  
+**`PaperlessBilling`** → Yes / No  
+**`PaymentMethod`** → Electronic check / Mailed check / Bank transfer / Credit card  
+**`MonthlyCharges`** → The amount charged monthly  
+**`TotalCharges`** → The total amount charged  
+**`Churn`** → Target variable (Yes = churn, No = stay)  
 
